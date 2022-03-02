@@ -2,7 +2,7 @@
 
 By Hemry Heisig
 
-_Contact me at [henry+laguia@eheisig.com](mailto:henry+laguia@eheisig.com) or [+1 (434) 806-7475](tel:14348067475) with any questions, comments, or concerns!_
+_Contact me at [henry+laguia@eheisig.com](mailto:henry+laguia@eheisig.com) (or talk to me in-person) with any questions, comments, or concerns!_
 
 A guide to markdown, VSCode, Github, and more
 
@@ -70,32 +70,32 @@ Click it. It shows the extensions already installed, and the recommended extenti
 
 #### Code Extensions
 
-- Arduino
-- Python
-- CircuitPython
-- Serial Monitor
-- ?
+- [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython)
+- [Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper)
 
 #### Collaboration Extensions
 
-- Live Share
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 #### Markdown Extensions
 
-- markdownlint
-- Prettier
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 #### Themes
 
-- Dracula
-- Abyss
-- SynthWave '84 (Glow doesn't work without Admin access ☹)
+- [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [Abyss] (Need to add link)
+- [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark)
+- [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) (Glow doesn't work without Admin access ☹)
 
 #### Miscellaneous Extensions
 
-- git-autoconfig, for working with multiple accounts on the same device.
-- Five Server, for live web hosting previews.
-- Markdown Converter, aptly named.
+- [git-autoconfig](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.git-autoconfig), for working with multiple accounts on the same device.
+- [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server), for live web hosting previews.
+- [Markdown Converter](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter), aptly named.
 
 ### Keyboard Shorcuts
 
