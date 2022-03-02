@@ -30,7 +30,7 @@ VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but harder
 
 On the lower left, second from the bottom, click on the Accounts icon, and log in.
 
-![Account](Images\account.png)
+![Account](/Images/account.png)
 
 Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
 
@@ -38,7 +38,7 @@ VSCode should guide you through where to put the folder.
 
 The rest of this guide is a reference for various components of VSCode
 
-- [Git/Source Control](#git-source-control)
+- [Git/Source Control](#gitsource-control)
 - [Extensions](#extensions)
 - [Keyboard Shorcuts](#keyboard-shorcuts)
 
@@ -46,7 +46,7 @@ The rest of this guide is a reference for various components of VSCode
 
 On the far left sidebar, there should be a branch-like icon:
 
-![Source Control](Images\source-control.png)
+![Source Control](/Images/source-control.png)
 
 Click it. This is where VSCode manages all the source control
 
@@ -54,7 +54,7 @@ Click it. This is where VSCode manages all the source control
 
 Also on the far-left sidebar, you'll see an icon that looks like this:
 
-![Extensions](Images\extensions.png)
+![Extensions](/Images/extensions.png)
 
 Click it. It shows the extensions already installed, and the recommended extentions to be installed. Below are some links to extensions for various purposes. Install as you see fit!
 
