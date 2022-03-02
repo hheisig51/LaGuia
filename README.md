@@ -28,9 +28,19 @@ VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but harder
 
 ### Setup
 
-On the lower left, second from the bottom, click on the Accounts icon, and log in.
+Open VSCode. It should be already installed on your computer.
 
-![Account](/Images/account.png)
+On the lower left, at the bottom, there should be a settings icon:
+
+![Settings](/Images/settings-gear.png)
+
+Click it. Next click `Online Services Settings`
+
+On the upper right, click `Settings Sync`
+
+Click `Turn On`, then `Sign-in with GitHub`
+
+It will walk you through the process of logging in.
 
 Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
 
