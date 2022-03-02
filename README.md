@@ -38,13 +38,25 @@ Click it. Next click `Online Services Settings`
 
 On the upper right, click `Settings Sync`
 
-Click `Turn On`, then `Sign-in with GitHub`
+Click `Sign-in and Turn On`, then `Sign-in with GitHub`
 
 It will walk you through the process of logging in.
 
 Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
 
 VSCode should guide you through where to put the folder.
+
+### Adding Microcontroller Drive as Folder
+
+On the far left sidebar, near the top, there's a files icon:
+
+![Files](/Images/files.png)
+
+Click it, and it will open the file explorer for your workspace.
+
+### Creating a New File
+
+PLACEHOLDER FOR CREATING A NEW FILE
 
 The rest of this guide is a reference for various components of VSCode
 
@@ -58,7 +70,9 @@ On the far left sidebar, there should be a branch-like icon:
 
 ![Source Control](/Images/source-control.png)
 
-Click it. This is where VSCode manages all the source control
+Click it. This is where VSCode manages all the source control...
+
+WIP
 
 ### Extensions
 
@@ -66,14 +80,16 @@ Also on the far-left sidebar, you'll see an icon that looks like this:
 
 ![Extensions](/Images/extensions.png)
 
-Click it. It shows the extensions already installed, and the recommended extentions to be installed. Below are some links to extensions for various purposes. Install as you see fit!
+Click it. It shows the extensions already installed, and the recommended extentions to be installed. Below are some links to extensions for various purposes.
+
+_Install as you see fit!_
 
 #### Code Extensions
 
 - [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), refer to [below](#python-installation) if the extension asks you to install Python.
 - [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython)
-- [Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper)
+- [Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper), to access Serial Monitor
 
 #### Collaboration Extensions
 
@@ -81,8 +97,8 @@ Click it. It shows the extensions already installed, and the recommended extenti
 
 #### Markdown Extensions
 
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint), looks at your markdown (`.md`) files with strict rules.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), has a shortcut to automatically format your markdown (`.md`) document.
 
 #### Themes
 
@@ -97,7 +113,35 @@ Click it. It shows the extensions already installed, and the recommended extenti
 - [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server), for live web hosting previews.
 - [Markdown Converter](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter), aptly named.
 
+### Python Installation
+
+So, you've installed the VSCode _extensions_, but it's asking you to install the Python _language_.
+
+Go to [this website](https://www.python.org/downloads/) and download the latest version. Open the executable.
+
+Uncheck the box that says "install for all users", located near the bottom of the installer window. Now, click the first arrow from the top (of the window) and install Python for your account.
+
+On your Python (`.py`) file, there should now be a green triangle in the upper right corner. Clicking it runs your code.
+
+If you do that, and...
+
+It runs perfectly -> Good! Have fun.
+
+It gives you an error message in white text -> Likely means something is wrong with your code. Double check that.
+
+It gives you an error in red text -> VSCode may not be able to find your python installation. Keep reading below
+
+#### The Case of the Missing Python Installation
+
+With your python (`.py`) file open, look at the bottom of the VSCode window.
+
+WIP
+
+`C:/Users/hheisig51/AppData/Local/Programs/Python/Python310/python.exe`
+
 ### Keyboard Shorcuts
+
+PLACEHOLDER FOR KEYBOARD SHORTCUTS
 
 ### Comprehension
 
