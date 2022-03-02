@@ -1,6 +1,6 @@
 # LaGuía
 
-By Hemry Heisig
+By Henry Heisig
 
 _Contact me at [henry+laguia@eheisig.com](mailto:henry+laguia@eheisig.com) (or talk to me in-person) with any questions, comments, or concerns!_
 
