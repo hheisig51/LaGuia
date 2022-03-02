@@ -26,21 +26,35 @@ Best advice for now is to go poking around repos. A lot of little settings to fi
 
 VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but harder to optimize to. If you want to forge your path; through trial and error; through fire and brimstone; then go right ahead! Close this, and figure it out. However, if you want helpful resources for your adventure, then continue reading.
 
-### First Time
+### Setup
 
 On the lower left, second from the bottom, click on the Accounts icon, and log in.
 
-PLACEHOLDER FOR ICON
+![Account](Images\account.png)
 
 Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
 
-### Git
+VSCode should guide you through where to put the folder.
+
+The rest of this guide is a reference for various components of VSCode
+
+- [Git/Source Control](#git-source-control)
+- [Extensions](#extensions)
+- [Keyboard Shorcuts](#keyboard-shorcuts)
+
+### Git/Source Control
+
+On the far left sidebar, there should be a branch-like icon:
+
+![Source Control](Images\source-control.png)
+
+Click it. This is where VSCode manages all the source control
 
 ### Extensions
 
-On the far-left sidebar, you'll see an icon that looks like this:
+Also on the far-left sidebar, you'll see an icon that looks like this:
 
-PLACEHOLDER FOR EXTENSIONS ICON
+![Extensions](Images\extensions.png)
 
 Click it. It shows the extensions already installed, and the recommended extentions to be installed. Below are some links to extensions for various purposes. Install as you see fit!
 
@@ -87,9 +101,7 @@ Follow the [advice of John Gruber](https://daringfireball.net/projects/markdown/
 
 ## Reminder
 
-> Type it in, Google’s your friend bruh
-
-- Jay-Z, "Drug Dealers Anonymous." 2016
+"Type it in, Google’s your friend bruh" - Jay-Z, "Drug Dealers Anonymous." 2016
 
 ## About
 
