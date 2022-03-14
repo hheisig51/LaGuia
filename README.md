@@ -24,7 +24,7 @@ Best advice for now is to go poking around repos. A lot of little settings to fi
 
 "Black Magic!" - Karl Helmstetter, 2021
 
-VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but harder to optimize to. If you want to forge your path; through trial and error; through fire and brimstone; then go right ahead! Close this, and figure it out. However, if you want helpful resources for your adventure, then continue reading.
+VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but comes with a learning curver. If you want to forge your path; through trial and error; through fire and brimstone; then go right ahead! Close this, and figure it out. However, if you want helpful resources for your adventure, then continue reading.
 
 ### Setup
 
@@ -90,14 +90,15 @@ Also on the far-left sidebar, you'll see an icon that looks like this:
 
 Click it. It shows the extensions already installed, and the recommended extentions to be installed. Below are some links to extensions for various purposes.
 
+Remember: These extensions have their own documentation too.
+
 _Install as you see fit!_
 
 #### Code Extensions
 
 - [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), Python and VSCode are difficult sometimes.
-- [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython)
-- [Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper), to access Serial Monitor
+- [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython), has a built in serial port monitor too!
 
 #### Collaboration Extensions
 
