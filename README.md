@@ -54,9 +54,17 @@ On the far left sidebar, near the top, there's a files icon:
 
 Click it, and it will open the file explorer for your workspace.
 
+WIP
+
 ### Creating a New File
 
 PLACEHOLDER FOR CREATING A NEW FILE
+
+### Github Built-in Walkthroughs
+
+Hit `Ctrl` + `Shift` + `P`, and type `Open Walkthrough`. There are three walkthroughs there. When you install Python (look at [extensions](#extensions) below), one should pop up for setting that up.
+
+### Choose Your Own Adventure!
 
 The rest of this guide is a reference for various components of VSCode
 
@@ -87,7 +95,7 @@ _Install as you see fit!_
 #### Code Extensions
 
 - [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), refer to [below](#python-installation) if the extension asks you to install Python.
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), Python and VSCode are difficult sometimes.
 - [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython)
 - [Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper), to access Serial Monitor
 
@@ -112,32 +120,6 @@ _Install as you see fit!_
 - [git-autoconfig](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.git-autoconfig), for working with multiple accounts on the same device.
 - [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server), for live web hosting previews.
 - [Markdown Converter](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter), aptly named.
-
-### Python Installation
-
-So, you've installed the VSCode _extensions_, but it's asking you to install the Python _language_.
-
-Go to [this website](https://www.python.org/downloads/) and download the latest version. Open the executable.
-
-Uncheck the box that says "install for all users", located near the bottom of the installer window. Now, click the first arrow from the top (of the window) and install Python for your account.
-
-On your Python (`.py`) file, there should now be a green triangle in the upper right corner. Clicking it runs your code.
-
-If you do that, and...
-
-It runs perfectly -> Good! Have fun.
-
-It gives you an error message in white text -> Likely means something is wrong with your code. Double check that.
-
-It gives you an error in red text -> VSCode may not be able to find your python installation. Keep reading below
-
-#### The Case of the Missing Python Installation
-
-With your python (`.py`) file open, look at the bottom of the VSCode window.
-
-WIP
-
-`C:/Users/hheisig51/AppData/Local/Programs/Python/Python310/python.exe`
 
 ### Keyboard Shorcuts
 
