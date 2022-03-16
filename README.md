@@ -16,7 +16,7 @@ A guide to markdown, VSCode, Github, and more
 
 ## Github
 
-WIP.
+TESTING GITHUB PAGES SUPPORT FOR README.MD INSTEAD OF INDEX.MD
 
 Best advice for now is to go poking around repos. A lot of little settings to fiddle with.
 
