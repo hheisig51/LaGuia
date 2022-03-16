@@ -26,6 +26,10 @@ Best advice for now is to go poking around repos. A lot of little settings to fi
 
 VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but comes with a learning curver. If you want to forge your path; through trial and error; through fire and brimstone; then go right ahead! Close this, and figure it out. However, if you want helpful resources for your adventure, then continue reading.
 
+### Issues
+
+If you have any issues with this, please send me a
+
 ### Setup
 
 Open VSCode. It should be already installed on your computer.
@@ -42,7 +46,7 @@ Click `Sign-in and Turn On`, then `Sign-in with GitHub`
 
 It will walk you through the process of logging in.
 
-Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
+Now, hit `Ctrl + Shift + P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
 
 VSCode should guide you through where to put the folder.
 
@@ -62,9 +66,9 @@ PLACEHOLDER FOR CREATING A NEW FILE
 
 ### Github Built-in Walkthroughs
 
-Hit `Ctrl` + `Shift` + `P`, and type `Open Walkthrough`. There are three walkthroughs there. When you install Python (look at [extensions](#extensions) below), one should pop up for setting that up.
+Hit `Ctrl + Shift + P`, and type `Open Walkthrough`. There are three walkthroughs there. When you install Python (look at [extensions](#extensions) below), one should pop up for setting that up.
 
-### Choose Your Own Adventure!
+### Choose Your Own Adventure
 
 The rest of this guide is a reference for various components of VSCode
 
@@ -78,9 +82,11 @@ On the far left sidebar, there should be a branch-like icon:
 
 ![Source Control](/Images/source-control.png)
 
-Click it. This is where VSCode manages all the source control...
+Click it. This is where VSCode manages all the source control betweeen your local computer and your git repository in the cloud. However, _you can always use VSCode without a repo_!
 
-WIP
+PLACEHOLDER FOR VIDEO WALKTHROUGH
+
+PLACEHOLDER FOR NON-VIDEO WALKTHROUGH
 
 ### Extensions
 
@@ -112,7 +118,7 @@ _Install as you see fit!_
 #### Themes
 
 - [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-- [Abyss] (Need to add link)
+- Abyss (Need to add link)
 - [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark)
 - [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) (Glow doesn't work without Admin access ☹)
 
@@ -124,13 +130,17 @@ _Install as you see fit!_
 
 ### Keyboard Shorcuts
 
-PLACEHOLDER FOR KEYBOARD SHORTCUTS
+Hit the keys `Ctrl + K` and then hit `Ctrl + S` right after. This will open the keyboard shortcuts menu. Here, you can type in the command name, and see its keybinding, or you can type in the keybinding and see its command.
 
-### Comprehension
+Example:
 
-Just checking if you're reading this ;)
+PLACEHOLDER FOR SEARCHING COMMAND
 
-Tell me the words "Pineapple Tango" if you've made it this far.
+PLACEHOLDER FOR SEARCHING KEYBINDING
+
+Fun Fact: I personally have `git commit all`, `git push`, and `git pull` all hooked up to custom keybinds:
+
+![PLACEHOLDER]()
 
 ## Markdown
 
