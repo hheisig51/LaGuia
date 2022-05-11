@@ -16,7 +16,7 @@ A guide to markdown, VSCode, Github, and more
 
 ## Github
 
-WIP.
+TESTING GITHUB PAGES SUPPORT FOR README.MD INSTEAD OF INDEX.MD
 
 Best advice for now is to go poking around repos. A lot of little settings to fiddle with.
 
@@ -24,7 +24,11 @@ Best advice for now is to go poking around repos. A lot of little settings to fi
 
 "Black Magic!" - Karl Helmstetter, 2021
 
-VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but harder to optimize to. If you want to forge your path; through trial and error; through fire and brimstone; then go right ahead! Close this, and figure it out. However, if you want helpful resources for your adventure, then continue reading.
+VSCode is a highly customizable IDE, more capable than Mu or Repl.it, but comes with a learning curver. If you want to forge your path; through trial and error; through fire and brimstone; then go right ahead! Close this, and figure it out. However, if you want helpful resources for your adventure, then continue reading.
+
+### Issues
+
+If you have any issues with this, please send me a
 
 ### Setup
 
@@ -42,11 +46,15 @@ Click `Sign-in and Turn On`, then `Sign-in with GitHub`
 
 It will walk you through the process of logging in.
 
-Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
+Now, hit `Ctrl + Shift + P`, type `Git: Clone` and the command should appear. If you succesfully logged in with GitHub, you can click `Clone from GitHub`. If the repo wasn't made by you, or you had trouble logging in, you can still provide the repository URL to clone.
 
 VSCode should guide you through where to put the folder.
 
-### Adventure Awaits
+### Github Built-in Walkthroughs
+
+Hit `Ctrl + Shift + P`, and type `Open Walkthrough`. There are three walkthroughs there. When you install Python (look at [extensions](#extensions) below), one should pop up for setting that up.
+
+### Choose Your Own Adventure
 
 The rest of this guide is a reference for various components of VSCode
 
@@ -60,7 +68,7 @@ On the far left sidebar, there should be a branch-like icon:
 
 ![Source Control](/Images/source-control.png)
 
-Click it. This is where VSCode manages all the source control
+Click it. This is where VSCode manages all the source control betweeen your local computer and your git repository in the cloud. However, _you can always use VSCode without a repo_!
 
 ### Extensions
 
@@ -70,14 +78,15 @@ Also on the far-left sidebar, you'll see an icon that looks like this:
 
 Click it. It shows the extensions already installed, and the recommended extentions to be installed. Below are some links to extensions for various purposes.
 
+Remember: These extensions have their own documentation too.
+
 _Install as you see fit!_
 
 #### Code Extensions
 
 - [Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), refer to [below](#python-installation) if the extension asks you to install Python.
-- [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython)
-- [Serial Port Helper](https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper), to access Serial Monitor
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), Python and VSCode are difficult sometimes.
+- [CircuitPython](https://marketplace.visualstudio.com/items?itemName=joedevivo.vscode-circuitpython), has a built in serial port monitor too!
 
 #### Collaboration Extensions
 
@@ -99,25 +108,9 @@ _Install as you see fit!_
 - [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server), for live web hosting previews.
 - [Markdown Converter](https://marketplace.visualstudio.com/items?itemName=manuth.markdown-converter), aptly named.
 
-### Python Installation
-
-So, you've installed the VSCode _extensions_, but it's asking you to install the Python _language_.
-
-Go to [this website](https://www.python.org/downloads/) and download the latest version. Open the executable.
-
-Uncheck the box that says "install for all users", located near the bottom of the installer window. Now, click the first arrow from the top (of the window) and install Python for your account.
-
-On your Python (`.py`) file, there should now be a green triangle in the upper right corner. Clicking it runs your code.
-
-If you do that, and...
-
-It runs perfectly -> Good! Have fun.
-
-It gives you an error message in white text -> Likely means something is wrong with your code. Double check that.
-
 ### Keyboard Shorcuts
 
-PLACEHOLDER FOR KEYBOARD SHORTCUTS
+Hit the keys `Ctrl + K` and then hit `Ctrl + S` right after. This will open the keyboard shortcuts menu. Here, you can type in the command name, and see its keybinding, or you can type in the keybinding and see its command.
 
 ## Markdown
 
