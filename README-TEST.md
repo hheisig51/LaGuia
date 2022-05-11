@@ -46,7 +46,17 @@ Now, hit `Ctrl` + `Shift` + `P`, type `Git: Clone` and the command should appear
 
 VSCode should guide you through where to put the folder.
 
-### Adventure Awaits
+### Adding Microcontroller Drive as Folder
+
+On the far left sidebar, near the top, there's a files icon:
+
+![Files](/Images/files.png)
+
+Click it, and it will open the file explorer for your workspace.
+
+### Creating a New File
+
+TODO: PLACEHOLDER FOR CREATING A NEW FILE
 
 The rest of this guide is a reference for various components of VSCode
 
@@ -60,7 +70,9 @@ On the far left sidebar, there should be a branch-like icon:
 
 ![Source Control](/Images/source-control.png)
 
-Click it. This is where VSCode manages all the source control
+Click it. This is where VSCode manages all the source control...
+
+WIP
 
 ### Extensions
 
@@ -91,7 +103,9 @@ _Install as you see fit!_
 #### Themes
 
 - [Dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [Abyss] (Need to add link)
 - [Ariake Dark](https://marketplace.visualstudio.com/items?itemName=wart.ariake-dark)
+- [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) (Glow doesn't work without Admin access ☹)
 
 #### Miscellaneous Extensions
 
@@ -115,9 +129,29 @@ It runs perfectly -> Good! Have fun.
 
 It gives you an error message in white text -> Likely means something is wrong with your code. Double check that.
 
+[Maybe unneeded]
+
+It gives you an error in red text -> VSCode may not be able to find your python installation. Keep reading below
+
+#### The Case of the Missing Python Installation
+
+With your python (`.py`) file open, look at the bottom of the VSCode window.
+
+TODO:
+
+`C:/Users/hheisig51/AppData/Local/Programs/Python/Python310/python.exe`
+
+[/maybe uneeded]
+
 ### Keyboard Shorcuts
 
-PLACEHOLDER FOR KEYBOARD SHORTCUTS
+TODO: PLACEHOLDER FOR KEYBOARD SHORTCUTS
+
+### Comprehension
+
+Just checking if you're reading this ;)
+
+Tell me the words "Pineapple Tango" if you've made it this far.
 
 ## Markdown
 
