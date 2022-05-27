@@ -1,11 +1,16 @@
 site_title: La Guia, a General Software Guide
 topnav_title: Bottom Lab > Top Lab
 
-# theme: jekyll-theme-midnight
-remote_theme: tomjoht/documentation-theme-jekyll
+title: Bottom Lab > Top Lab
+
+# remote_theme: tomjoht/documentation-theme-jekyll
+remote_theme: just-the-docs/just-the-docs
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
+aux_links:
+  "LaGuia on GitHub":
+    - "//github.com/hheisig51/LaGuia"
 
 description: "A general software guide for the CHS Sigma Lab"
 
