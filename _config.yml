@@ -3,8 +3,8 @@
 
 title: Bottom Lab > Top Lab
 
-# remote_theme: tomjoht/documentation-theme-jekyll
 remote_theme: just-the-docs/just-the-docs
+# remote_theme: tomjoht/documentation-theme-jekyll
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
