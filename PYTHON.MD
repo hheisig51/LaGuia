@@ -1,6 +1,6 @@
-# PYTHON.MD
+# Python
 
-## The way VSCode and the sigma lab computers deal with python is odd. This should be ignored
+## The way VSCode and the Sigma lab computers deal with python is odd
 
 ### Python Installation
 
